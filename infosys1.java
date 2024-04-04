@@ -1,6 +1,6 @@
 import java.util.*;
 
-class HelloWorld {
+class infosys1 {
     public static void main(String[] args) {
         Scanner S = new Scanner(System.in);
         int vno = S.nextInt();
@@ -20,11 +20,12 @@ class HelloWorld {
                     hp = hp - vp[i];
                     continue;
                 } else {
-                    System.out.println();
+                    hno--;
+                    hp = hp - vp[i];
                     if (hp == 0) {
                         System.out.println(i);
                     } else {
-                        System.out.println(i + 1);
+                        System.out.println(i - 1);
                     }
                     break;
                 }
