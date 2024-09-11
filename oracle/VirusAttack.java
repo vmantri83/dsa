@@ -1,4 +1,4 @@
-// //https://www.thejoboverflow.com/problem/71/
+// https://www.thejoboverflow.com/problem/71/
 
 import java.util.*;
 
